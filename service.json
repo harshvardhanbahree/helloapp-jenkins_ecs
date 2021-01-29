@@ -1,9 +1,9 @@
 {
-    "serviceName":"helloapp-dev-servicename",
+    "serviceName":"helloapp-dev-service",
     "taskDefinition":"helloapp-dev-task",
     "loadBalancers":[
         {
-            "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:947895636989:targetgroup/helloapp-dev-target-group/72e8e33255d0bf09",
+            "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:947895636989:targetgroup/helloapp-dev-targetgroup/0a614e55e4d1a781",
             "containerName":"helloapp-dev-container",
             "containerPort":3000
         }
