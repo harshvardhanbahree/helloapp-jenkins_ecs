@@ -1,6 +1,6 @@
 {
     "serviceName":"helloapp-dev-service",
-    "taskDefinition":"helloapp-dev-task",
+    "taskDefinition":"helloapp-dev-taskdefination",
     "loadBalancers":[
         {
             "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:947895636989:targetgroup/helloapp-dev-tg/e78d1d767ba6e5ee",
