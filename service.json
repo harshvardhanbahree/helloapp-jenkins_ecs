@@ -3,11 +3,11 @@
     "taskDefinition":"helloapp-dev-taskdefination",
     "loadBalancers":[
         {
-            "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:947895636989:targetgroup/helloapp-dev-tg/e78d1d767ba6e5ee",
+            "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:947895636989:targetgroup/helloapp-dev-targetgroup/d4dee9b6bb11c249",
             "containerName":"helloapp-dev-container",
             "containerPort":3000
         }
     ],
     "desiredCount":1,
-    "role":"ecsServiceRole"
+    "role":"AWSServiceRoleForECS"
 }
