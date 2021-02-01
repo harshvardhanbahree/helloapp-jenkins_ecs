@@ -1,10 +1,10 @@
 {
-    "serviceName":"helloapp-dev-service",
-    "taskDefinition":"helloapp-dev-taskdefination",
+    "serviceName":"workshop62-dev-service",
+    "taskDefinition":"workshop62-dev-task",
     "loadBalancers":[
         {
-            "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:947895636989:targetgroup/helloapp-dev-targetgroup/d4dee9b6bb11c249",
-            "containerName":"helloapp-dev-container",
+            "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:947895636989:targetgroup/workshop62-dev-target/1049b39a42d50bd1",
+            "containerName":"workshop62-dev-container",
             "containerPort":3000
         }
     ],
